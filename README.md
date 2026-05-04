@@ -1,6 +1,6 @@
-# AI Code Documentation Rules 🚀
+# AI Code Documentation Standards 🚀
 
-A strict, language-agnostic set of instructions designed to stop AI coding assistants (like Cursor, Kiro, and Claude Code) from generating noisy, obvious, and redundant code comments.
+A strict, language-agnostic set of standards designed to stop AI coding assistants (like Cursor, Kiro, and Claude Code) from generating noisy, obvious, and redundant code comments.
 
 ## The Problem
 By default, LLMs tend to over-explain code, leaving behind meta-comments like `# Added validation` or narrating obvious operations like `# Increment the counter`. This pollutes the codebase and reduces readability.
@@ -24,11 +24,12 @@ This repository provides a set of core principles that forces the AI to:
 2. Add it to your project's custom instructions or system prompt settings.
 
 ## Contributing
-Contributions are welcome! If you want to add support for another programming language (e.g., Go, Rust) or refine existing rules:
+Contributions are welcome! If you want to add support for another programming language or refine existing rules:
 1. Fork the project.
 2. Create your feature branch.
 3. Open a Pull Request (PR).
-# Note: All PRs require review and approval before merging.
+
+> **Note:** All PRs require review and approval before merging.
 
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
