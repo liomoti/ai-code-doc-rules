@@ -15,7 +15,7 @@ This repository provides a set of core principles that forces the AI to:
 ## How to Install & Use
 
 ### For AWS Kiro
-1. Copy the `kiro-steering.md` file from this repository.
+1. Copy the `documentation-standards.md` file from this repository.
 2. Place it in your project under the `.kiro/steering/` directory.
 3. The file automatically includes the `--- inclusion: always ---` frontmatter so Kiro will always enforce it.
 
