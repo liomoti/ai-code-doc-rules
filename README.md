@@ -14,25 +14,29 @@ This repository provides a set of core principles that forces the AI to:
 
 ## How to Install & Use
 
-### For AWS Kiro
-1. Copy the `documentation-standards.md` file from this repository.
-2. Place it in your project under the `.kiro/steering/` directory.
-3. The file automatically includes the `--- inclusion: always ---` frontmatter so Kiro will always enforce it.
+Navigate to the folder corresponding to your AI assistant:
 
-### For Visual Studio (GitHub Copilot)
-1. Copy the `copilot-instructions.md` file.
-2. Place it in a `.github/` directory at the root of your workspace (i.e., `.github/copilot-instructions.md`).
+### 🖱️ Cursor
+1. Go to the `Cursor/` folder in this repository.
+2. Copy the `.cursorrules` file.
+3. Paste it directly into the root directory of your project.
 
-### For Claude Code
-1. Copy the `CLAUDE.md` file.
-2. Place it in the root directory of your project. Claude Code will read it automatically at the start of every session.
+### 🧠 Claude Code
+1. Go to the `Claude/` folder.
+2. Copy the contents of the `CLAUDE.md` file.
+3. Paste the rules into your project's `CLAUDE.md` file at the root directory.
 
-### For Cursor
-1. Copy the `.cursorrules` file.
-2. Paste it into the root directory of your project.
+### 🛠️ Amazon Q Developer (Kiro)
+1. Go to the `Kiro/` folder.
+2. Copy the `documentation-standards.md` file.
+3. Place it in your project under the `.kiro/steering/` directory.
 
 ## Contributing
 Contributions are welcome! If you want to add support for another programming language or refine existing rules:
 1. Fork the project.
 2. Create your feature branch.
 3. Open a Pull Request (PR).
+# Note: Keep in mind that core rule updates must be applied across all tool-specific folders.
+
+## License
+Distributed under the MIT License. See `LICENSE` for more information.
